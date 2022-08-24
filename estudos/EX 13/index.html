@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>midias html5</title>
+
+</head>
+
+<body>
+    <h1> imagens dinamicas</h1>
+    <p> tente movimentar o navegador para mudar a imagem</p>
+   
+    <picture>
+        <source media="(max-width: 750px )" srcset="imagens/fotop.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/fotom.png" type="image/png">
+        
+        
+        <img src="#" alt="#">
+    </picture>
+    <h1>utilizando audios</h1>
+    <p>voce pode adicionar um audio em html5 utilizando a tag "audio" e adicionando o audio a ser utilizado no parametro "src", o parametro "autplay" serve para tocar a musica automaticamente, o parametro "controls" serve para aparecer a barrinha de inicio e duracao do audio <b> detalhe importante, durante os testes efetuados neste dia, a tag "autoplay" e "controls" só funciona se for colocada antes do parametro "src"</b></p>
+
+    <audio autoplay controls src=  "midias/buglecallme.mp3">  </audio>
+<p><b>possa ser que o navegador que esta sendo criado o site nao venha ter compatibilidade com o formato de audio que esta sendo utilizado, os formato de audios que existem sao : MP3 WAV E OGG, caso nao houver compatibilidade utilize de outro formato de som !!!</b></p>
+
+<p>tambem pode ser utilizado outra maneira de adicionar audios e ja deixando programado diversos audios de formataçoes diferentes para caso um nao funcionar o navegador teste os demais, isso é utilizado e feito dentro da tag "audio" e o parametro a ser utilizado nao é o "src" que vem como padrao da tag mas sim o "source" como parametro "src"<b>este parametro é onde é adicionado no codigo o audio</b> e parametro "type" <b>este parametro é para adicionar ao codigo o formato do audio</b></p>
+
+<audio controls loop autoplay >
+    <source src="midias/buglecallme.mp3" type="audio/mpeg">
+    <source src="midias/buglecallme.ogg" type="audio/ogg">
+    <source src="midias/buglecallme.wav" type="audio/wav">
+></audio>
+<p> existem os parametros <b>"controls"</b> <b>"loop"</b> e <b>"autopay"</b> que pode ser adicionado dentro da tag audio, este é o siginicado de cada um deles :</p>
+<ul type = "disc">
+    <li><b>controls</b></li>
+    <ul type = "disc">
+        <li>serve para deixar o visual de inicio e duracao do audio</li></ul>
+    <li><b>loop</b></li>
+    <b>
+        <ul type="disc"><li>serve para a musica ficar repetindo infinitamento pelo site</li></ul>
+    </b>
+    </ul>
+    <li><b>autoplay</b></li>
+    <ul type = "disc"><li>serve para tocar musica automaticamento ao abrir o site</li></ul>
+</ul>
+</body>
+
+</html>

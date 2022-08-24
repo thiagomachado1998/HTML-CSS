@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> links e ancoras</title>
+
+
+</head>
+
+<body>
+    <h1> usando links externos</h1>
+    <p> voce pode acessar meu insta : <a target="_blank" rel="external" href="https://www.instagram.com/?hl=pt-br">  Thiago Machado</a></p>
+    <p> tambem pode acessar o meu pinterest : <a target="_blank" rel="external" href="https://br.pinterest.com/thiago_machado13/_created/">Thiago Machado</a> </p>
+    
+    <h1> usando link externos em imagens</h1>
+
+    <p> este produto da nike é horrivel mas esta a venda basta clicar na foto :</p>
+    <a target="_blank"
+    rel="external" href="https://www.nike.com.br/tenis-nike-air-max-excee-masculino-007581.html?cor=IG"> <abbr title="https://www.nike.com.br/tenis-nike-air-max-excee-masculino-007581.html?cor=IG"><img src="tenis nike180.jpg" alt=""></abbr></a>
+    <p><b>pra adicionar um link no html é so usar a tag "a" e colocar o link dentro da opcao "href"</b></p>
+    <p><b>para abrir o link em uma nova aba use a funçao : "target _blank" </b></p>
+    <p> <b>a funçao "target _self" serve para mostrar ao google que o link pertence ao mesmo site</b></p>
+    <p><b> a funcao "rel external" serve para mostrar ao google que o link é de um site externo</b></p>
+    <p><b>a funçao "rel next" serve para mostrar ao google que o link é a proxima pagina do site</b></p>
+    <p><b>a funçao "rel prev" serve pra mostrar que o link é de uma pagina anterior do proprio site</b></p>
+    <p>
+        <em>esta é minha foto que está no pinterest:</em>
+    </p>
+    <a target="_blank" rel="external" href="https://br.pinterest.com/pin/841328774152946438/"><abbr title="https://br.pinterest.com/pin/841328774152946438/"><img src="thiago foto 220.jpeg" alt=""></abbr></a>
+    
+    <h1> link internos</h1>
+    <p>
+        está é minha primeira pagina do site, se voce quiser pode acessar tambem a minha  <a rel="next" href="pag002.html">  <abbr title="file:///C:/Users/thiago/Documents/estudos/HTML-CSS/exercicios/EX%2011/pag002.html">  <b>segunda pagina</b> </abbr>   </a>
+    </p>
+    <p> voce tambem pode acessar minha <a target="_self" rel="next" href="noticias/pago03.html"><b>terceira pagina</b></a></p>
+    <h1> metodo para deixar link para dowload</h1>
+    <ul>
+        <li><a href="#"download="#" type="application/zip">arquivo zip</a></li>
+        <li><a href="#"download ="#" type="application/pdf">arquivo pdf</a></li>
+    </ul>
+    <p><b>nos dois exemplos acima esta dois links de dowload
+        <ul>
+            <li> <b> o primeiro link esta programado para receber um arquivo em zip entao voce adicionará a tag "a" para adicionar o link, e o parametro "download = e colocar nome do arquivo e o "type = " que vai determinar qual o tipo de documento está para download que nesse caso é "application/zip"</b>
+
+        </li>
+        <li>
+            <b>
+                o segundo link deste exemplo segue o mesmo padrao do primeiro, só que esta programado para fazer dowload de um arquivo PDF, entao voce em relacao ao primeiro exemplo só mude o nome do arquivo e no "type=" coloque "application/pdf"
+            </b>
+        </li>
+    </ul>
+    <p><b> detalhe, voce tem que deixar o documento de download dentro da pasta do arquivo html do site</b></p>
+   
+    
+</body>
+
+</html>

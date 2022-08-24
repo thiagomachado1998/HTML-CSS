@@ -1,0 +1,41 @@
+@charset "UTF-8";
+/* seletor personalizado :
+em html é id "#" (so pode 1 tag por pagina)
+em css é "." (pode mais de uma tag)
+
+*/
+
+body {
+    background-color: rgba(0, 255, 21, 0.219);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1#principal {
+    color: #fff0f4;
+    text-align: center;
+}
+
+h1 {
+    color: rgba(0, 255, 21, 0.733);
+}
+
+h2 {
+    color:rgba(0, 255, 85, 0.411) ;
+}
+
+.basico {
+    color: rgba(9, 128, 82, 0.452);
+    font-weight: bold;
+}
+
+.intermediario {
+color: aqua;
+}
+
+.avancado {
+    color: brown;
+}
+
+.destaque {
+    background-color: blueviolet;
+}
