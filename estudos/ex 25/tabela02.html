@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabelas</title>
+    <style>
+        table{
+            width: 500px;
+            border: 1px black solid;
+            border-collapse: collapse;
+            margin: auto;
+            
+        }
+
+        th {
+            padding: 5px;
+           border:  2px black solid;
+           background-color: darkgray;
+        }
+
+        td {
+            border: 1px black solid;
+            padding: 5px;
+        }
+
+        caption {
+            border: 1px black solid;
+            font-size: 1.5em;
+            padding: 10px;
+            font-weight: bolder;
+        }
+
+    </style>
+</head>
+<body>
+    <table>
+        <caption>algo relacionado sobre isso</caption>
+        <thead>
+            <tr>
+                <th scope="col" >estado</th>
+                <th scope="col">populaçao</th>
+                <th scope="col">mortes por dia</th>
+
+            </tr>
+        </thead>
+        
+
+        <tbody>
+            <tr>
+                <td>
+                    sao paulo
+                </td>
+                <td>
+                    450.579.655
+                </td>
+                <td>
+                    215
+                </td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <th scope="row" >
+                    porcentagem de qualidade de vida
+                </th>
+                <td>
+                    37%
+                </td>
+                <td>0%</td>
+            </tr>
+            
+        </tfoot>
+    </table>
+    
+</body>
+</html>
