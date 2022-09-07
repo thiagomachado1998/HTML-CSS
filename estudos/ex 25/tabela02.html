@@ -7,6 +7,7 @@
     <title>tabelas</title>
     <style>
         table{
+            position: relative;
             width: 500px;
             border: 1px black solid;
             border-collapse: collapse;
@@ -14,14 +15,26 @@
             
         }
 
+        thead, tfoot {
+            background-color: rgb(0, 0, 0);
+            color: white;
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: rgb(0, 0, 0);
+            
+        }
+
         th {
             padding: 5px;
            border:  2px black solid;
-           background-color: darkgray;
+          
         }
 
         td {
-            border: 1px black solid;
+            border: 2px black solid;
             padding: 5px;
         }
 
@@ -31,6 +44,12 @@
             padding: 10px;
             font-weight: bolder;
         }
+
+        tbody > tr:nth-child(2n){
+            background-color: darkgray;
+        }
+
+      
 
     </style>
 </head>
@@ -59,6 +78,68 @@
                     215
                 </td>
             </tr>
+            <tr>
+                <td>Santa catarina</td>
+                <td>555.004.24</td>
+                <td>147</td>
+
+            </tr>
+            <tr>
+                <td>
+                    Brasilia
+                </td>
+                <td>
+                    444.775.45
+                </td>
+                <td>
+                    241
+                </td>
+
+            </tr>
+            <tr>
+                <td>
+                    Maranhao
+                </td>
+                <td>
+                    441.22.14
+                </td>
+                <td>
+                    14
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Bahia
+                </td>
+                <td>
+                    214.41.44
+                </td>
+                <td>
+                    24
+                </td>
+            </tr>
+            <tr>
+                <td>Tocantins</td>
+                <td>444.11.44</td>
+                <td>14</td>
+                
+            </tr>
+            <tr>
+                <td>Sergipe</td>
+                <td>222.441.2</td>
+                <td>87</td>
+            </tr>
+            <tr>
+                <td>Acre</td>
+                <td>222.114.2</td>
+                <td>21</td>
+            </tr>
+            <tr>
+                <td>  Rio de janeiro</td>
+                <td>555.4.52</td>
+                <td>80000</td>
+                
+            </tr>
         </tbody>
 
         <tfoot>
@@ -74,6 +155,31 @@
             
         </tfoot>
     </table>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum repellendus rerum omnis quibusdam eveniet illo tempora nostrum numquam, facilis, voluptate quis unde fugit. Impedit necessitatibus eligendi aliquam corporis quibusdam molestias?Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste eum, aspernatur consequuntur reprehenderit eos officia. Ullam maxime laudantium porro iure eius quibusdam, veritatis rem placeat quia unde quasi enim debitis!Loremlore
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam ratione sunt, ipsam itaque alias cumque non culpa expedita amet totam quibusdam libero velit nam commodi illum tenetur dolor ea sapiente. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis debitis quos, unde illo cum minima totam obcaecati nam repudiandae aut tempore beatae. Eveniet dignissimos iure ab ipsum! Aliquam, assumenda expedita?
+    </p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum repellendus rerum omnis quibusdam eveniet illo tempora nostrum numquam, facilis, voluptate quis unde fugit. Impedit necessitatibus eligendi aliquam corporis quibusdam molestias?Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste eum, aspernatur consequuntur reprehenderit eos officia. Ullam maxime laudantium porro iure eius quibusdam, veritatis rem placeat quia unde quasi enim debitis!Loremlore
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam ratione sunt, ipsam itaque alias cumque non culpa expedita amet totam quibusdam libero velit nam commodi illum tenetur dolor ea sapiente. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis debitis quos, unde illo cum minima totam obcaecati nam repudiandae aut tempore beatae. Eveniet dignissimos iure ab ipsum! Aliquam, assumenda expedita?
+    </p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum repellendus rerum omnis quibusdam eveniet illo tempora nostrum numquam, facilis, voluptate quis unde fugit. Impedit necessitatibus eligendi aliquam corporis quibusdam molestias?Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste eum, aspernatur consequuntur reprehenderit eos officia. Ullam maxime laudantium porro iure eius quibusdam, veritatis rem placeat quia unde quasi enim debitis!Loremlore
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam ratione sunt, ipsam itaque alias cumque non culpa expedita amet totam quibusdam libero velit nam commodi illum tenetur dolor ea sapiente. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis debitis quos, unde illo cum minima totam obcaecati nam repudiandae aut tempore beatae. Eveniet dignissimos iure ab ipsum! Aliquam, assumenda expedita?
+    </p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum repellendus rerum omnis quibusdam eveniet illo tempora nostrum numquam, facilis, voluptate quis unde fugit. Impedit necessitatibus eligendi aliquam corporis quibusdam molestias?Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste eum, aspernatur consequuntur reprehenderit eos officia. Ullam maxime laudantium porro iure eius quibusdam, veritatis rem placeat quia unde quasi enim debitis!Loremlore
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam ratione sunt, ipsam itaque alias cumque non culpa expedita amet totam quibusdam libero velit nam commodi illum tenetur dolor ea sapiente. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis debitis quos, unde illo cum minima totam obcaecati nam repudiandae aut tempore beatae. Eveniet dignissimos iure ab ipsum! Aliquam, assumenda expedita?
+    </p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum repellendus rerum omnis quibusdam eveniet illo tempora nostrum numquam, facilis, voluptate quis unde fugit. Impedit necessitatibus eligendi aliquam corporis quibusdam molestias?Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste eum, aspernatur consequuntur reprehenderit eos officia. Ullam maxime laudantium porro iure eius quibusdam, veritatis rem placeat quia unde quasi enim debitis!Loremlore
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam ratione sunt, ipsam itaque alias cumque non culpa expedita amet totam quibusdam libero velit nam commodi illum tenetur dolor ea sapiente. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis debitis quos, unde illo cum minima totam obcaecati nam repudiandae aut tempore beatae. Eveniet dignissimos iure ab ipsum! Aliquam, assumenda expedita?
+    </p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum repellendus rerum omnis quibusdam eveniet illo tempora nostrum numquam, facilis, voluptate quis unde fugit. Impedit necessitatibus eligendi aliquam corporis quibusdam molestias?Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste eum, aspernatur consequuntur reprehenderit eos officia. Ullam maxime laudantium porro iure eius quibusdam, veritatis rem placeat quia unde quasi enim debitis!Loremlore
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam ratione sunt, ipsam itaque alias cumque non culpa expedita amet totam quibusdam libero velit nam commodi illum tenetur dolor ea sapiente. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis debitis quos, unde illo cum minima totam obcaecati nam repudiandae aut tempore beatae. Eveniet dignissimos iure ab ipsum! Aliquam, assumenda expedita?
+    </p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum repellendus rerum omnis quibusdam eveniet illo tempora nostrum numquam, facilis, voluptate quis unde fugit. Impedit necessitatibus eligendi aliquam corporis quibusdam molestias?Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste eum, aspernatur consequuntur reprehenderit eos officia. Ullam maxime laudantium porro iure eius quibusdam, veritatis rem placeat quia unde quasi enim debitis!Loremlore
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam ratione sunt, ipsam itaque alias cumque non culpa expedita amet totam quibusdam libero velit nam commodi illum tenetur dolor ea sapiente. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis debitis quos, unde illo cum minima totam obcaecati nam repudiandae aut tempore beatae. Eveniet dignissimos iure ab ipsum! Aliquam, assumenda expedita?
+    </p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum repellendus rerum omnis quibusdam eveniet illo tempora nostrum numquam, facilis, voluptate quis unde fugit. Impedit necessitatibus eligendi aliquam corporis quibusdam molestias?Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste eum, aspernatur consequuntur reprehenderit eos officia. Ullam maxime laudantium porro iure eius quibusdam, veritatis rem placeat quia unde quasi enim debitis!Loremlore
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam ratione sunt, ipsam itaque alias cumque non culpa expedita amet totam quibusdam libero velit nam commodi illum tenetur dolor ea sapiente. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis debitis quos, unde illo cum minima totam obcaecati nam repudiandae aut tempore beatae. Eveniet dignissimos iure ab ipsum! Aliquam, assumenda expedita?
+    </p>
     
 </body>
 </html>
