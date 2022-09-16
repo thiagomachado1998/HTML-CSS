@@ -1,0 +1,42 @@
+@charset "utf-8";
+
+/*---css para telas---*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-color: darkgray;
+}
+
+header > h1 {
+    text-align: center;
+    font-size: 1.5em;
+    font-family: sans-serif;
+}
+
+
+
+menu > ul {
+    background-color: black;
+}
+
+menu li {
+    display: inline;
+    padding: 10px;
+    color: white;
+    font-size: 1.3em;
+    font-family: sans-serif;
+   
+}
+
+article {
+    display: block;
+    margin: auto;
+    width: 700px;
+    padding: 10px;
+    font-family: sans-serif;
+}
+
