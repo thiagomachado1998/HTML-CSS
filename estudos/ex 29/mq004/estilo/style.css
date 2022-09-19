@@ -1,2 +1,57 @@
 @charset "utf-8";
 
+/*-- demais medias */
+/*-- typical device brakpoint
+-celular: (Mobile: 360 x 640.
+Mobile: 375 x 667.
+Mobile: 360 x 720.
+iPhone X: 375 x 812.
+Pixel 2: 411 x 731.)
+ 
+-tablet:  768 x 1024.
+
+-desktop: 1920 x 1080.
+
+-Tv: acima de 1200px
+*/
+
+@media print {
+    
+}
+
+@media screen and (min-width : 768px) and (max-width: 1080px) {
+    
+    body {
+        background-image: url(../imagens/back-tablet.jpg);
+    }
+
+    img#tablet {
+        display: block;
+        margin: auto;
+    }
+
+    img#cel {
+        display: none;
+    }
+}
+
+
+@media screen and (min-width:1080px) and (max-width:1920px) {
+    body {
+        background-image: url("../imagens/back-pc.jpg"); 
+    }
+
+    img#pc {
+        display: block;
+        margin: auto;
+    }
+
+    img#tablet {
+        display: none;
+        
+    }
+
+    img#cel {
+        display: none;
+    }
+}
