@@ -12,7 +12,7 @@
     
 </head>
 
-<body onresize ="mudoutamanho ()" >
+<body  >
     <header>
         <h1> Meu site</h1>
         <span id="icon" class="material-icons" onclick="clickmenu()" > menu</span>
@@ -42,13 +42,8 @@
         
     
     <script>
-        function mudoutamanho() {
-            if (window.innerwidth > 1200){
-                icon.style.display = 'none'
-            }
-        }
-
-        function clickmenu(){
+        
+         function clickmenu(){
             if (itens.style.display == 'block') {
                 itens.style.display = 'none'
             }
