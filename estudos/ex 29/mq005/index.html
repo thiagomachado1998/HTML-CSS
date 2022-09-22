@@ -8,10 +8,11 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
     <link rel="stylesheet" href="estilo/todas.css">
+    <link rel="stylesheet" href="estilo/notebook.css" media="screen" >
     
 </head>
 
-<body>
+<body onresize ="mudoutamanho ()" >
     <header>
         <h1> Meu site</h1>
         <span id="icon" class="material-icons" onclick="clickmenu()" > menu</span>
@@ -37,7 +38,16 @@
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis enim odio laboriosam repellat eius dolore, eum, quis, quasi aspernatur inventore magni molestiae voluptatem error nostrum distinctio non. Laboriosam, modi blanditiis? Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim vero beatae quod ratione quos fuga molestiae, labore quibusdam reiciendis ducimus dignissimos officia eum asperiores eaque soluta error adipisci totam ea?</p>
         </article>
     </main>
+    
+        
+    
     <script>
+        function mudoutamanho() {
+            if (window.innerwidth > 1200){
+                icon.style.display = 'none'
+            }
+        }
+
         function clickmenu(){
             if (itens.style.display == 'block') {
                 itens.style.display = 'none'

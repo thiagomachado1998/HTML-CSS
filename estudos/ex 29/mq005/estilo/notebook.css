@@ -1,0 +1,30 @@
+@charset "utf-8";
+
+
+    @media screen and (min-width:1365px) {
+        .material-icons {
+            display: none;
+        }
+
+        menu {
+            display: block;
+        }
+
+        header > menu > ul > li{
+            display: inline-block;
+        }
+
+        main {
+            width: 75vw;
+        }
+
+        main > article > h2 {
+            font-size: 2.7vw;
+            text-align: center;
+            
+        }
+
+        main > article > p {
+            font-size: 1.5vw;
+        }
+    }
